@@ -47,20 +47,7 @@ void exp(string s)
                 st.push(ch);
             }
         }
-        // else if (ch == '(')
-        // {
-        //     st.push('(');
-        // }
-        // else if (ch == ')')
-        // {
-        //     while (st.top() != '(')
-        //     {
-        //         char temp = st.top();
-        //         st.pop();
-        //         result.push_back(temp);
-        //     }
-        //     st.pop();
-        // }
+         
         i++;
         for (auto j : result)
         {
