@@ -106,7 +106,7 @@ bool higher(char ch, char top)
 int main()
 {
 
-    string s = " a+(b*c-(d/e-f)*g)*h";
+    string s = "(a-(b^c))+(d)";
     exp(s);
 
     return 0;
