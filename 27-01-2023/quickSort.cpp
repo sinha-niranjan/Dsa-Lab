@@ -66,7 +66,7 @@ int main()
     print(arr, n);
 
     stack<int> lower;
-    stack<int> upper;
+    stack<int> upper;  
     lower.push(0);
     upper.push(n - 1);
 
